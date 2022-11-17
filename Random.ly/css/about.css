@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+    
+body{
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+}
+    
+nav{
+    margin-top: 40px;
+}
+  
+a{
+    color: black;
+    text-decoration-line: none;}
+  
+.header{
+    padding: 0px 50px;
+    font-weight:900;
+    font-size: 60px;
+    line-height: 100px;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+}
+
+nav ul li{
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 30px;
+    line-height: 80px;
+    
+}
+
+.buttons .button:hover{
+    background-color: rgb(255, 200, 235);
+    transition: 1s;
+}
+
+.contenido .camera{  
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.contenido p{
+text-align: justify-all;
+margin:30px;
+font-size: large;
+
+
+}
+.footer{
+    font-family: 'Nunito', sans-serif;
+    padding: 5px 50px 50px 50px;
+    background-color: rgb(211, 211, 211);
+
+    
+}
+  
+.footer p{
+    margin: 5px 5px;
+
+}
+
+@media screen and (max-width:1012px){
+    .header{
+        font-size: 50px;
+
+    }
+
+    nav ul li {
+        display: inline;
+    }
+    
+}
+  
