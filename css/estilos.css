@@ -118,7 +118,7 @@
       background: rgb(255, 200, 235);
       top: 120px;
       left: -100%;
-      text-align: center;
+      padding: 0;
       transition: all .5s;
   }
   
@@ -131,6 +131,7 @@
   
   nav ul li a{
     font-size: 40px;
+    text-align: center;
   }
   
   li a:hover, li a.active{
