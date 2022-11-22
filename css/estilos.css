@@ -93,6 +93,14 @@
       /* height: 100%; */
     }
     
+    .header{
+      font-size: 60px;
+      }
+    
+      nav ul li {
+        font-size: 30px;
+      }
+
   }
   
   @media screen and (max-width: 1000px) {
