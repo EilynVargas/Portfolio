@@ -119,7 +119,8 @@
       top: 120px;
       left: -100%;
       padding: 0;
-      transition: all .5s;
+      transition: all .1s;
+      transition-timing-function: ease;
       
   }
   
@@ -141,7 +142,7 @@
   }
   
   #check:checked ~ ul{
-    left:0;
+    right:0;
   }
   }
   
