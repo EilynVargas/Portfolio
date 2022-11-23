@@ -125,7 +125,7 @@
       height: 100vh;
       background: rgb(255, 200, 235);
       top: 120px;
-      left: -100%;
+      right: -100%;
       padding: 0;
       transition: all .1s;
       transition-timing-function: ease;
